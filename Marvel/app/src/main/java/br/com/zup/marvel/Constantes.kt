@@ -20,3 +20,4 @@ const val ERROR_VALIDATE_PASSWORD = "Sua senha deve conter no mínimo 8 caracter
 const val INVALID_EMAIL = "E-mail inválido"
 const val REGISTER = "Registro"
 const val LOGIN = "Login"
+const val EMAIL_REGEX= "^[A-Za-z](.*)([@]{1})(.{1,})(\\.)(.{1,})"
