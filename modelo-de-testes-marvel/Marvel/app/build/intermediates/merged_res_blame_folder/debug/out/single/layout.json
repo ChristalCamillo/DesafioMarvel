@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detalhe.xml",
+        "source": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\src\\main\\res\\layout\\activity_detalhe.xml"
+    },
+    {
+        "merged": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\marvel_item.xml",
+        "source": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\src\\main\\res\\layout\\marvel_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "C:\\Users\\christal.camillo\\Desktop\\DesafioMarvel\\modelo-de-testes-marvel\\Marvel\\app\\src\\main\\res\\layout\\activity_home.xml"
+    }
+]

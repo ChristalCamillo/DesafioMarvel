@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1042618612020-nbm4d2dcpp4ht2pkbptqf4f9jq2klccn.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1042618612020</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVK2sqK2eVGg54yqSKiXM6KBgs0WYCjYA</string>
+    <string name="google_app_id" translatable="false">1:1042618612020:android:92bb818cdbf0ae03840d61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVK2sqK2eVGg54yqSKiXM6KBgs0WYCjYA</string>
+    <string name="google_storage_bucket" translatable="false">marvel-em-sim-city.appspot.com</string>
+    <string name="project_id" translatable="false">marvel-em-sim-city</string>
+</resources>

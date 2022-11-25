@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="red_500">#B71C1C</color>
+    <color name="red_700">#7F0000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_86">86dp</dimen>
+    <dimen name="size_300">300dp</dimen>
+    <dimen name="size_50">50dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <string name="app_name">Marvel</string>
+    <string name="create_account_txt">Crie sua conta agora</string>
+    <string name="default_web_client_id" translatable="false">1042618612020-nbm4d2dcpp4ht2pkbptqf4f9jq2klccn.apps.googleusercontent.com</string>
+    <string name="description_image_splash">Imagem com os personagens da Marvel</string>
+    <string name="detalhe_name">Detalhes</string>
+    <string name="email_hint">Email</string>
+    <string name="exit">sair</string>
+    <string name="filmes_texto">AQUI PODERIA TER UM RECYCLERVIEW COM ALGUNS FILMES DA MARVEL!</string>
+    <string name="gcm_defaultSenderId" translatable="false">1042618612020</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVK2sqK2eVGg54yqSKiXM6KBgs0WYCjYA</string>
+    <string name="google_app_id" translatable="false">1:1042618612020:android:92bb818cdbf0ae03840d61</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVK2sqK2eVGg54yqSKiXM6KBgs0WYCjYA</string>
+    <string name="google_storage_bucket" translatable="false">marvel-em-sim-city.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hqs_texto">AQUI PODERIA TER UM RECYCLERVIEW COM ALGUNS HQS DA MARVEL!</string>
+    <string name="informacoes_name">Marvel Studios</string>
+    <string name="lista_nome_heroi">Nome do heroi</string>
+    <string name="login_txt">login</string>
+    <string name="nome_txt">Nome</string>
+    <string name="project_id" translatable="false">marvel-em-sim-city</string>
+    <string name="registrar_conta_txt">registrar conta</string>
+    <string name="senha_hint">Senha</string>
+    <string name="texto_detalhe_descricao">Rogue é uma mutante Nível Ômega, personagem de histórias em quadrinhos da editora Marvel Comics. Vampira é integrante de algumas equipes dos X-Men e dos Vingadores</string>
+    <string name="texto_home">Olá %1$s, esses são alguns dos personagens da Marvel!</string>
+    <string name="texto_informacoes_marvel">Informações sobre a Marvel</string>
+    <style name="Theme.Marvel" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_700</item>
+        <item name="colorPrimaryVariant">@color/red_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/red_700</item>
+        <item name="colorSecondaryVariant">@color/red_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.Marvel.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

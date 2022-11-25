@@ -6,9 +6,12 @@ import androidx.lifecycle.ViewModel
 import br.com.zup.marvel.*
 import br.com.zup.marvel.domain.model.User
 import br.com.zup.marvel.domain.repository.AuthenticationRepository
+import br.com.zup.marvel.domain.repository.AuthenticationRepositoryFactory
 
 class RegisterViewModel : ViewModel() {
-    private val authenticationRepository = AuthenticationRepository()
+    private val authenticationRepository : AuthenticationRepository by lazy {
+        AuthenticationRepositoryFactory.create()
+    }
 
     private var _registerState = MutableLiveData<User>()
     val registerState: LiveData<User> = _registerState
