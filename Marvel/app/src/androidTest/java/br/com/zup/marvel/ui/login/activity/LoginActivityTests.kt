@@ -1,7 +1,5 @@
-package br.com.zup.marvel.ui.login.viewmodel
+package br.com.zup.marvel.ui.login.activity
 
-import android.view.View
-import android.widget.EditText
 import androidx.test.espresso.Espresso.closeSoftKeyboard
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
