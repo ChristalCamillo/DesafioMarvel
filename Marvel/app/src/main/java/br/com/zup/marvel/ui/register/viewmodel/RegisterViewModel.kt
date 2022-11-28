@@ -64,7 +64,7 @@ class RegisterViewModel : ViewModel() {
             }
 
         }.addOnFailureListener {
-            _errorState.value = CREATE_USER_ERROR_MESSAGE + it.message
+            _errorState.value = REGISTER_ERROR_MESSAGE + it.message
         }
     } catch (ex: Exception) {
         _errorState.value = ex.message
