@@ -14,7 +14,7 @@ import org.robolectric.annotation.Config
 class RegisterViewModelTests {
 
     @Test
-    fun `empty name should return name error message`() {
+    fun `empty name should alter error state value and be equal to name error message`() {
         val viewModel = RegisterViewModel()
         viewModel.validateDataUser(user = User(name = ""))
         viewModel.errorState.value.shouldBeEqualTo(NAME_ERROR_MESSAGE)
