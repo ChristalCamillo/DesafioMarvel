@@ -21,14 +21,14 @@ class RegisterViewModelTests {
     }
 
     @Test
-    fun `empty email should return email error message`() {
+    fun `empty email should alter error state value and be equal to email error message`() {
         val viewModel = RegisterViewModel()
         viewModel.validateDataUser(user = User(name = "christal", email = ""))
         viewModel.errorState.value.shouldBeEqualTo(EMAIL_ERROR_MESSAGE)
     }
 
     @Test
-    fun `empty password should return password error message`() {
+    fun `empty password should alter error state value and be equal to password error message`() {
         val viewModel = RegisterViewModel()
         viewModel.validateDataUser(
             user = User(
@@ -41,14 +41,14 @@ class RegisterViewModelTests {
     }
 
     @Test
-    fun `name less than three characters should return error validate name message`() {
+    fun `name less than three characters should alter error state value and be equal to error validate name message`() {
         val viewModel = RegisterViewModel()
         viewModel.validateDataUser(user = User(name = "c", email = "christal.camillo@gmail.com", password = "1"))
         viewModel.errorState.value.shouldBeEqualTo(ERROR_VALIDATE_NAME)
     }
 
     @Test
-    fun `password less than eight characters should return error validate password`() {
+    fun `password less than eight characters should alter error state value and be equal to error validate password`() {
         val viewModel = RegisterViewModel()
         viewModel.validateDataUser(
             user = User(
@@ -61,7 +61,7 @@ class RegisterViewModelTests {
     }
 
     @Test
-    fun `when all fields are correct should validate and return a registered user`() {
+    fun `when all fields are correct should return true creating a registered user`() {
         val viewModel = RegisterViewModel()
         val user = User(
             name = "christal",

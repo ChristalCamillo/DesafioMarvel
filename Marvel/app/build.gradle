@@ -8,6 +8,12 @@ plugins {
 android {
     compileSdk 32
 
+    testOptions {
+        unitTests.all {
+            jvmArgs '-noverify'
+        }
+    }
+
     defaultConfig {
         applicationId "br.com.zup.marvel"
         minSdk 16
@@ -22,6 +28,9 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            testCoverageEnabled true
         }
     }
     compileOptions {
